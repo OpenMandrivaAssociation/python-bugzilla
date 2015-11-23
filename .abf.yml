@@ -1,2 +1,4 @@
+removed_sources:
+  python-bugzilla-0.7.0.tar.gz: 2e71aaf04728405bdd24b9f017a0d86bd099f044
 sources:
-  "python-bugzilla-0.7.0.tar.gz": 2e71aaf04728405bdd24b9f017a0d86bd099f044
+  python-bugzilla-1.2.2.tar.gz: a05a2bf05f87b79fca031a03e5b84607de0dc4d4
