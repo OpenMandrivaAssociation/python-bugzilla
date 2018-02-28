@@ -1,11 +1,11 @@
 Name:           python-bugzilla
-Version:        1.2.2
+Version:        2.1.0
 Release:        1
 Summary:        A python library for interacting with Bugzilla
 Group:          Development/Python
 License:        GPLv2+
-URL:            https://fedorahosted.org/python-bugzilla
-Source0:        https://fedorahosted.org/releases/p/y/%{name}/%{name}-%{version}.tar.gz
+URL:            https://github.com/python-bugzilla/python-bugzilla
+Source0:        https://github.com/python-bugzilla/python-bugzilla/archive/v%{version}.tar.gz
 
 BuildArch:      noarch
 BuildRequires: python-devel
@@ -25,12 +25,7 @@ for interacting with bugzilla from shell scripts.
 
 
 %install
-rm -rf $RPM_BUILD_ROOT
 %{__python} setup.py install -O1 --skip-build --root $RPM_BUILD_ROOT
-
-%clean
-rm -rf $RPM_BUILD_ROOT
-
 
 %files
 %doc COPYING README.md CONTRIBUTING.md
