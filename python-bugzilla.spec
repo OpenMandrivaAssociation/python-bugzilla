@@ -3,7 +3,7 @@
 
 Name:		python-bugzilla
 Version:	3.3.0
-Release:	1
+Release:	2
 Summary:	A python library for interacting with Bugzilla
 License:	GPL-2.0-or-later
 Group:		Development/Python
